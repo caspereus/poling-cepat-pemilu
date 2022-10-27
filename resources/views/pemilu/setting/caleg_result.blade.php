@@ -33,23 +33,26 @@
 					</div>
 					<div class="panel-body">
 						<input type="hidden" id="count_data" value="{{ count($array) }}">
-						@foreach($array as $partial)
+						
 						<div class="row">
-						<div class="col-md-4">
-							<div class="parent">
-							<img src="{{ asset('images/caleg/'.$partial['caleg']['photo']) }}" alt="" class="" style="width: 100%;">
+						@foreach($array as $partial)
+							<div class="col-md-3">
+								<div class="parent">
+									<img src="{{ asset('images/caleg/'.$partial['caleg']['photo']) }}" alt="" class="" style="width: 100%; height: 330px;">
+								</div>
+								<br>
+								<div class="row">
+										<h4>{{ $partial['caleg']['name'] }}</h4>
+										<p class="minus_text">{{ $partial['caleg']['partai_name'] }}</p>
+								</div>
+								<hr/>
+								<h1 id="vote{{ $loop->index + 1 }}">0</h1>
+								<p style="margin-top:-15px">Suara</p>
 							</div>
-							<br>
-							<h4>{{ $partial['caleg']['name'] }}</h4>
-							<p class="minus_text">{{ $partial['caleg']['partai_name'] }}</p>
-						</div>
-						<div class="col-md-8">
-							<h1 class="text-center text-big" id="vote{{ $loop->index + 1 }}">0</h1>
-							<p class="text-center text-med">Suara</p>
-						</div>
+							@endforeach
 						</div>
 						<hr>
-						@endforeach
+						
 					</div>
 				</div>
 			</div>

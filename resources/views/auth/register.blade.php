@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="description" content="Aplikasi Keuangan Badan usaha milik Ohoi (Bumo) kabupaten maluku tenggara">
 <meta itemprop="description" content="Aplikasi Keuangan Badan usaha milik Ohoi (Bumo) kabupaten maluku tenggara">
-<title>Daftar | Quick</title>
+<title>Daftar | Hitung Cepat Pemilu</title>
 
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/themify-icons.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}">

@@ -54,8 +54,8 @@
     <header class="main-header">
     	<div class="topbar-header">
         	<div class="container-fluid">
-            	<a class="logo" href="#!">Quick</a>
-                <h5 class="app-title">Quick Count Application</h5>
+            	<a class="logo" href="#!">Hitung Cepat Pemilu</a>
+                <h5 class="app-title">Aplikasi Hitung Cepat Pemilu - Binus University Team - 2</h5>
                 <div class="topbar-right">
                 	<ul class="topbar-menu">
                     	<li>
@@ -115,7 +115,6 @@
             <div class="container-fluid">
                 <div class="header-menu">
                     <ul class="menu">
-                        <li class=""><a href="{{ route('pemilu_setting.index') }}"><span class="icon icon-layers"></span>Pemilu</a></li>
                         <li><a href="{{ route('partai.index') }}"><span class="icon icon-layers"></span>Transaksi</a></li>
                     </ul>
                 </div>
@@ -146,13 +145,8 @@
     <footer class="main-footer">
     	<div class="container-fluid">
         	<span class="copyright">
-        		© 2018 Quick Count Application
+        		© 2024 Binus Final Assignment
             </span>
-            <ul class="footer-nav">
-            	<li><a href="#!">Contact Us</a></li>
-                <li><a href="#!">Terms</a></li>
-                <li><a href="#!">Privacy</a></li>
-            </ul>
         </div>
     </footer>
     

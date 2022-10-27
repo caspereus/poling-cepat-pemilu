@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="description" content="Aplikasi Keuangan Badan usaha milik Ohoi (Bumo) kabupaten maluku tenggara">
 <meta itemprop="description" content="Aplikasi Keuangan Badan usaha milik Ohoi (Bumo) kabupaten maluku tenggara">
-<title>Login | Quick</title>
+<title>Login | Hitung Cepat Pemilu</title>
 
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/themify-icons.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}">
@@ -26,11 +26,11 @@
     <section class="main-login--page">
         <div class="login-wrapper left-content">
             <div class="login-logo">
-                QuickCount
+                Hitung Cepat Pemilu
             </div>
             <div class="login-content--wrapper">
                 <h1 class="login-title">
-                    <b>Quick</b><br>Monitor Data Pemilihan<br>Cepat,Mudah,Realtime
+                    <b>Hitung Cepat Pemilu</b><br>Monitor Data Pemilihan<br>Cepat,Mudah,Realtime
                 </h1>
             </div><!-- login-content--wrapper -->
             {{-- <footer class="login-footer">
